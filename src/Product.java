@@ -12,6 +12,9 @@ import java.util.Date;
     static int currentProductionNumber = 1;
 
 
+    public Product() {
+
+    }
 
     public Product(String name) {
       this.name = name;
