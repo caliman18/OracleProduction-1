@@ -1,5 +1,7 @@
 // Harrison Paxton
 // Abstract product type that implements Item interface
+//Damian Morgan was a big help in getting me through steps 14-16, implementing Comparable and
+// getting the repl.it to work
 // 10/24/2018
 
 import java.util.Date;
