@@ -3,7 +3,7 @@
 // 10/24/2018
 
 import java.util.Date;
-  public abstract class Product implements Item {
+  public abstract class Product implements Item, Comparable<Product> {
 
     int serialNumber;
     String manufacturer = "OracleProduction";
@@ -54,6 +54,11 @@ import java.util.Date;
           + "Serial Number : " + serialNumber + "\n"
           + "Date : " + manufacturedOn + "\n"
           + "Name : " + name;
+    }
+
+
+    public int compareTo(Product o) {
+      return name.compareTo(o.getName());
     }
   }
 

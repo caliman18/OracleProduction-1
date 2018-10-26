@@ -17,7 +17,7 @@ public class PlayerDriver {
     System.out.println(mp1);
     System.out.println(mp2);
 
-    AudioPlayer ap = new AudioPlayer("iPod Mini", "MP3", ItemType.AUDIO);
+    AudioPlayer ap = new AudioPlayer("iPod Mini", "MP3");
     ap.next();
     ap.play();
     ap.previous();
