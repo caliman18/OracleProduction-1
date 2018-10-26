@@ -1,7 +1,7 @@
 // Harrison Paxton
 // MoviePlayer is similar to audio player but movies instead of audio
 // 10/24/2018
-public class MoviePlayer extends Product implements MultimediaControl{
+public class MoviePlayer extends Product implements MultimediaControl {
 
 
   private Screen screen;

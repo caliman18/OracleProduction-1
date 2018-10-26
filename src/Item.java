@@ -3,7 +3,9 @@
 // 10/24/2018
 
 import java.util.Date;
+
 public interface Item {
+
   public final String manufacturer = "OracleProduction";
   //A constant called manufacturer that would be set to “OracleProduction”.
 

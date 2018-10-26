@@ -3,10 +3,10 @@
 // 10/24/2018
 
 public enum ItemType {
-  AUDIO ("AU"),
-  VISUAL ("VI"),
-  AUDIO_MOBILE ("AM"),
-  VISUAL_MOBILE ("VM"),;
+  AUDIO("AU"),
+  VISUAL("VI"),
+  AUDIO_MOBILE("AM"),
+  VISUAL_MOBILE("VM"),;
 
   String code;
 
