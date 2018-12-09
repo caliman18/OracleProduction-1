@@ -14,11 +14,11 @@ A class diagram will be added once this project is complete.
 To run this program, download all the files in src and open in a IDE such as IntelliJ. The Main class serves as a driver that test the various other classes and methods within the program.
 
 ## Built With
-*IntelliJ IDEA
-*Java JDK 1.8 (Java 8)
+* IntelliJ IDEA
+* Java JDK 1.8 (Java 8)
 
 ## Author
-*Harrison Paxton
+* Harrison Paxton
 
 ## License
 MIT License
@@ -44,10 +44,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ## Acknowledgments
-*Professor VanSelow
-*Damian Morgan
-*Google Style Guides
-*Oracle Academy
+* Professor VanSelow
+* Damian Morgan
+* Google Style Guides
+* Oracle Academy
 
 ## History
 The main changes with this project occurred when new steps were required in class. Other changes include the creation of the ReadMe and JavaDoc.
