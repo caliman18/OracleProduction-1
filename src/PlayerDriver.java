@@ -4,6 +4,9 @@
 
 public class PlayerDriver {
 
+  /**
+   * Test driver for various media players.
+   */
   public static void testPlayer() {
 
     MoviePlayer mp1 = new MoviePlayer("DBPOWER MK101\n", new Screen("720x480",

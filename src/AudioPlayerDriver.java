@@ -5,6 +5,9 @@
 
 public class AudioPlayerDriver {
 
+  /**
+   * Driver for testing audio player.
+   */
   public static void testAudioPlayer() {
 
     AudioPlayer ap = new AudioPlayer("iPod Mini", "MP3");

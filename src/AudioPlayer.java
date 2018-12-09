@@ -8,10 +8,16 @@ public class AudioPlayer extends Product implements MultimediaControl {
   private String audioSpecification;
   private ItemType mediaType;
 
+  /**
+   * Constructor for audio player.
+   *
+   * @param name Name of audio player
+   * @param audioSpecification Specification of audio player
+   */
   public AudioPlayer(String name, String audioSpecification) {
     super(name);
     this.audioSpecification = audioSpecification;
-    this.mediaType = mediaType;
+    this.mediaType = ItemType.AUDIO;
   }
 
   @Override
@@ -34,12 +40,18 @@ public class AudioPlayer extends Product implements MultimediaControl {
     System.out.println("Next");
   }
 
+  /**
+   * Displays specs and media type of audio player.
+   *
+   * @return toString method from the parent class
+   */
   public String toString() {
 
     String superString = super.toString();
 
-    superString += "\nAudio Spec : " + audioSpecification + "\n" +
-        "Type : " + mediaType;
+    superString += "\nAudio Spec : " + audioSpecification
+        + "\n"
+        + "Type : " + mediaType;
 
     return superString;
   }
