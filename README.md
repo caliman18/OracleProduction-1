@@ -8,7 +8,7 @@ This project was made as the ongoing/final project in my Object Oriented Program
 [JavaDoc](https://www.astralminerals.com/OracleProduction)
 
 ## Diagrams
-A class diagram will be added once this project is complete.
+![Class Diagram](docs/ClassDiagram.png)
 
 ## Getting Started
 To run this program, download all the files in src and open in a IDE such as IntelliJ. The Main class serves as a driver that test the various other classes and methods within the program.
