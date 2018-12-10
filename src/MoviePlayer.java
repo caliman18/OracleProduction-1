@@ -19,21 +19,33 @@ public class MoviePlayer extends Product implements MultimediaControl {
     this.monitorType = type;
   }
 
+  /**
+   * Displays when user "plays" movie.
+   */
   @Override
   public void play() {
     System.out.println("Playing movie");
   }
 
+  /**
+   * Displays when user "stops" movie.
+   */
   @Override
   public void stop() {
     System.out.println("Stopping movie");
   }
 
+  /**
+   * Displays when user selects previous movie.
+   */
   @Override
   public void previous() {
     System.out.println("Previous movie");
   }
 
+  /**
+   * Displays when user selects next movie.
+   */
   @Override
   public void next() {
     System.out.println("Next movie");

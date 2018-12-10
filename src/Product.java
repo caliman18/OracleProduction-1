@@ -14,13 +14,16 @@ public abstract class Product implements Item, Comparable<Product> {
   String name;
   static int currentProductionNumber = 1;
 
+  /**
+   * Empty contructor for a product.
+   */
   public Product() {
 
   }
 
   /**
-   * Constructor for product, takes in name param and sets production number
-   * and date manufactured.
+   * Constructor for product, takes in name param and sets production number and date manufactured.
+   *
    * @param name the name of the product
    */
   public Product(String name) {
@@ -31,26 +34,41 @@ public abstract class Product implements Item, Comparable<Product> {
   }
 
   @Override
+  /**
+   * Sets current production number.
+   */
   public void setProductionNumber(int productionNumber) {
     currentProductionNumber = productionNumber;     //shows as bug but necessary for assignment
   }
 
   @Override
+  /**
+   * Sets name of product.
+   */
   public void setName(String name) {
     this.name = name;
   }
 
   @Override
+  /**
+   * Getter for name of product.
+   */
   public String getName() {
     return name;
   }
 
   @Override
+  /**
+   * Getter for date product was manufactured.
+   */
   public Date getManufactureDate() {
     return manufacturedOn;                          //shows as bug but necessary for assignment
   }
 
   @Override
+  /**
+   * Getter for product serial number.
+   */
   public int getSerialNumber() {
     return serialNumber;
   }
@@ -67,6 +85,12 @@ public abstract class Product implements Item, Comparable<Product> {
         + "Name : " + name;
   }
 
+  /**
+   * Compares name of product.
+   *
+   * @param o product to be compared
+   * @return integer
+   */
   public int compareTo(Product o) {
     return name.compareTo(o.getName());
   }

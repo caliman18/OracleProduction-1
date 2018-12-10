@@ -9,8 +9,8 @@ public class Screen implements ScreenSpec {
   private int responsetime;
 
   /**
-   * Constructor for screen of movie player, takes in and sets
-   * resolution, refresh rate, and response time.
+   * Constructor for screen of movie player, takes in and sets resolution, refresh rate, and
+   * response time.
    *
    * @param resolution Resolution of screen
    * @param refreshrate Refresh rate of screen
@@ -23,22 +23,32 @@ public class Screen implements ScreenSpec {
   }
 
   @Override
+  /**
+   * Getter for screen resolution.
+   */
   public String getResolution() {
     return resolution;
   }
 
   @Override
+  /**
+   * Getter for refresh rate of screen.
+   */
   public int getRefreshRate() {
     return refreshrate;
   }
 
   @Override
+  /**
+   * Getter for response time of screen.
+   */
   public int getResponseTime() {
     return responsetime;
   }
 
   /**
    * To string method for the screen.
+   *
    * @return Displasy resolution, refresh rate and response time of screen
    */
   public String toString() {

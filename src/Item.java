@@ -4,6 +4,9 @@
 
 import java.util.Date;
 
+/**
+ * Interface for details of the Item class, used for various types of items.
+ */
 public interface Item {
 
   public final String manufacturer = "OracleProduction";

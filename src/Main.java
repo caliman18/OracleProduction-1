@@ -6,7 +6,6 @@ public class Main {
 
   /**
    * Main class used for testing code on Repl.it
-   *
    */
   public static void main(String[] args) {
 
@@ -22,6 +21,7 @@ public class Main {
 
   // Step 15
   // Complete the header for the testCollection method here
+
   /**
    * Test creation of the collection of media players.
    *
@@ -48,6 +48,7 @@ public class Main {
 
   // Step 16
   // Create print method here
+
   /**
    * Pritns out the list of media players.
    *
