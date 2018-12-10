@@ -3,7 +3,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class Main {
-
+  
   public static void main(String[] args) {
 
     // Write one line of code to create an ArrayList of products
