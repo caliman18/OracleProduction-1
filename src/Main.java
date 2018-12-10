@@ -4,9 +4,6 @@ import java.util.List;
 
 public class Main {
 
-  /**
-   * Main class used for testing code on Repl.it
-   */
   public static void main(String[] args) {
 
     // Write one line of code to create an ArrayList of products
